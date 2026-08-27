@@ -10,7 +10,7 @@ That claim is hard to test in people, because you can never audit a person's
 entire learning history. You can audit a model's.
 
 So I built a 167k-parameter GPT from scratch and controlled its entire training
-corpus — every unit generated from a spec I wrote, with checks that verify
+corpus — with checks that verify
 exactly what each symbol was and was not exposed to on every build. Then I ran
 two studies.
 
